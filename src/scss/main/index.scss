@@ -1,0 +1,134 @@
+
+@import './header.scss';
+
+.main{
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    min-height: calc(100vh - 123px);
+    .tab{
+        cursor: pointer;
+        flex: 1 1 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        // background-size:auto 100%;
+        background-size:cover;
+        
+        // background- ;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding: 0 8px;
+        border-right: 2px solid #fff;
+        transition: .25s;
+        transition: background-size 0.3s ease-in-out;
+        &:last-child{
+            border-right: none;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            transition: .34s;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba($color: #000000, $alpha: .35);
+        }
+        .info{
+            position: relative;
+            z-index: 1; 
+            color: #fff;
+            min-height: 330px;
+            // background: green;
+            h1{
+                margin-top: 0;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 51px;
+            }
+            ul{
+                li{
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 41px;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .click{
+            
+            position: absolute;
+            z-index: 1;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        &:hover{
+            // background-size: auto 120%;
+            &:after{
+            backdrop-filter: blur(4px);
+            }
+        }
+
+        &:nth-child(1){
+            .click{
+                animation-name: clickAnim;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+                animation-delay: 0ms;
+            }
+        }
+        &:nth-child(2){
+            .click{
+            animation-name: clickAnim;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+                animation-delay: 260ms;
+            }
+        }
+        &:nth-child(3){
+            .click{
+            animation-name: clickAnim;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+                animation-delay: 550ms;
+            }
+        }
+        &:nth-child(4){
+            .click{
+            animation-name: clickAnim;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+                animation-delay: 880ms;
+            }
+        }
+    }
+}
+
+
+@keyframes clickAnim {
+    from {
+        opacity: 1;
+        transform: scale(1) translate(-50%, 0);
+    }
+    to {
+        opacity: .6;
+        transform: scale(1.1) translate(-50%, 0);
+    }
+  }

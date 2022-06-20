@@ -1,0 +1,10 @@
+
+@import './header.scss';
+
+.balcony{
+    box-sizing: border-box;
+    padding: 0 0 0 100px;
+    // height: 1000vh;
+    
+    @import './intro.scss';
+}

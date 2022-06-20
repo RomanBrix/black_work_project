@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { MainLayout } from "./components/main/layouts/inedx";
+import Balcony from "./pages/balcony";
+import  Main  from "./pages/Main";
+import  MainAbout  from "./pages/About";
+import { BalconyLayout } from "./components/balcony/layouts/inedx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+        <Route path='/' element={<MainLayout/>}>
+          <Route index element={<Main />}/>
+
+          <Route path='about' element={<MainAbout/>}/>
+          <Route path='*' element={<h1>Not Found</h1>}/>
+        </Route>
+
+
+        <Route path='/balcony' element={<BalconyLayout/> }>
+          <Route index element={<Balcony />}/>
+        </Route>
+        
+    </Routes>
   );
 }
 
