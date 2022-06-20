@@ -1,18 +1,20 @@
-import { useNavigate } from "react-router-dom";
-import { phone, phoneUri } from "../../helpers/contactInfo";
 
 
 
 export function BalconyHeader(props) {
     
-    const navigate = useNavigate();
     return(
         <header className="balcony-header">
             <ul>
-                <li>Балкони</li>
-                <li>Вікна</li>
-                <li>Дах</li>
+                <li onClick={()=>{scrollTo('balck')}}>Балкони</li>
+                <li onClick={()=>{scrollTo('okna')}}>Вікна</li>
+                <li onClick={()=>{scrollTo('roof')}}>Дах</li>
             </ul>
         </header>
     )
+
+
+    function scrollTo(id){
+        document.getElementById(id).scrollIntoView({block: "center", behavior: "smooth"})
+    }
 }

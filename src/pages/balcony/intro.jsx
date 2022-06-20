@@ -32,9 +32,12 @@ export default function IntroBalcony() {
                     </ul>
                 </div>
 
-                <div className="bottom">
+                <div className="bottom" onClick={()=>{scrollTo('balck')}}>
                     <ArrowDown/>
                 </div>
             </div>
     )
+    function scrollTo(id){
+        document.getElementById(id).scrollIntoView({block: "center", behavior: "smooth"})
+    }
 }
