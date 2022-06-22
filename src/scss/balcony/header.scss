@@ -114,3 +114,21 @@ header.balcony-header{
         margin-bottom: 20px;
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .balcony-header{
+        display: none;
+    }
+    .balcony-sidebar{
+        display: none;
+    }
+    .callback-balcony{
+        // display: none;
+
+        right: 0;
+        top: 30px;
+        transform: translate(0, 0%);
+    }
+}

@@ -4,6 +4,8 @@ import Balc from '../imgs/balcony/1.jpg'
 import Okna from '../imgs/balcony/2.jpg'
 import Roof from '../imgs/balcony/3.jpg'
 import renderBalconyBlocks from "../../components/balcony";
+import HowItBalcony from "./howit";
+import CallUs from "./callus";
 
 
 
@@ -16,6 +18,8 @@ export default function Balcony(props) {
             <div className="big-info-container">
                 {renderBalconyBlocks(bigData)}
             </div>
+            <HowItBalcony/>
+            <CallUs/>
         </div>
     )
 }

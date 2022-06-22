@@ -1,11 +1,19 @@
 
 @import './header.scss';
-
+@import './footer.scss';
 .balcony{
     box-sizing: border-box;
-    padding: 0 0 0 100px;
+    // padding: 0 0 0 100px;    
     // height: 1000vh;
     scroll-behavior: smooth;
     @import './intro.scss';
     @import './biginfo.scss';
+    @import './howit.scss';
+    @import './callus.scss';
+    
+    
+    @media only screen and (max-width: 600px) {
+        padding: 0;
+    }
+    
 }

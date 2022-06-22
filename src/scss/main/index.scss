@@ -132,3 +132,24 @@
         transform: scale(1.1) translate(-50%, 0);
     }
   }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .main{
+        
+        flex-wrap: wrap;
+        .tab{
+            padding: 20px;
+            box-sizing: border-box;
+            .info{
+                min-height: auto;
+                h1{}
+                ul{
+                    li{}
+                }
+            }
+            .click{}
+        }
+    }
+  }
