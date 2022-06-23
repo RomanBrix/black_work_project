@@ -34,25 +34,17 @@ const bigData = [
         id: 'balck',
         frogs:[
             {
-                title: 'Work #1',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#1 Балкони',
+                text: "Сучасні, високотехнологічні, якісні балкони на замповлення під ключ. Завдяки команді професіоналів, ми повністю впевнені в своїй роботі і сміливо можемо гарантувати найкращі ціни на ринку."
             },
             {
-                title: 'Work #2',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#2 Лоджія',
+                text: "У боротьбі за корисними квадратними метрами ми намагаємося якомога компактніше і розумніше облаштувати свою площу. Раніше балкони були простором для зберігання зимових речей, літньої гуми тощо. Але зараз все перевернулося, ми намагаємося обживати кожен свій метр і це дуже правильно, адже грамотно продуманий ремонт зіграє у плюс у вашому повсякденному житті. Для цього у нашій компанії існує послуга «лоджія під ключ»"
             },
             {
-                title: 'Work #3',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
-            {
-                title: 'Work #4',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
-            {
-                title: 'Work #5',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
+                title: '#3 Реконструкція',
+                text: "Одна з основних спеціалізацій  – це виготовлення та встановлення металопластикових конструкцій, а також комплексний ремонт балконів та лоджій. Ми пропонуємо все в комплексі, тому що знаємо, що більшості замовників зручніше та дешевше не розтягувати ремонт на тривалий час, а замовити всі роботи в одній організації."
+            }
         ]
     },
 
@@ -63,25 +55,17 @@ const bigData = [
         id:'okna',
         frogs:[
             {
-                title: 'Work #1',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#1 Пластикові вікна',
+                text: "Підберемо для вас як нове вікно так і бу варіант"
             },
             {
-                title: 'Work #2',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#2 Панорамні вікна',
+                text: "сучасна і стильна система, яка є майже гладкою і суцільною конструкцією з надзвичайно міцного загартованого скла товщиною 8 або 10 мм. Завдяки своїй технології виготовлення таке скло ідеально рівне"
             },
             {
-                title: 'Work #3',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
-            {
-                title: 'Work #4',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
-            {
-                title: 'Work #5',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
+                title: '#3 Підвіконня',
+                text: "Ми рекомендуємо довірити встановлення нашим фахівцям. Установка або монтаж підвіконня потребує досвіду та майстерності. Установку підвіконь роблять коли встановлюють вікно або ремонт будинку та квартири на стадії штукатурки, щоб фінальні роботи (укоси) змогли перекрити місця примикання підвіконь до стін."
+            }
         ]
     },
 
@@ -91,25 +75,21 @@ const bigData = [
         id: 'roof',
         frogs:[
             {
-                title: 'Work #1',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#1 Дах на балкон',
+                text: "Встановлення та монтаж даху для Вашого балкону. Крім монтажу конструкцій, наші професіонали посилять його звукоізоляцію, герметичність, а також захист від різних погодних впливів. Після завершення встановлення даху на балкон, Ви можете сміливо його засклювати. У цьому питанні Вам знову допоможе наша компанія. Наші фахівці зроблять із вашого балкона – цукерку. Зрештою Ви отримаєте по-справжньому комфортний та якісно зроблений балкон, який подарує Вам суцільне задоволення від експлуатації."
             },
             {
-                title: 'Work #2',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#2 Зварний каркас',
+                text: "Правильно проведені зварювальні роботи забезпечать не тільки міцність, але і повну герметичність, а також естетичність зовнішнього вигляду і внутрішнього оформлення. До того ж різні типи балконів та додаткових елементів припускають використання різних по конструкції каркасів. Основу виробу складає металевий каркас балкона, на ній і буде триматися вся балконна вага, тому в цьому випадку на матеріалах не слід економити, як і довіряти проведення робіт неперевіреним фахівцям. Слід розуміти, що зварювальний каркас балкона виконується для зниження тиску на балконні плити і перерозподілу наявного навантаження на стіну будівлі, що безпосередньо несе."
             },
             {
-                title: 'Work #3',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+                title: '#3 Зовнішня обшивка балкону',
+                text: "Зовнішня обшивка балкона або лоджії – це своєрідна унікальна модернізація. Вона тим, що допомагає ушляхетнити балкон із зовнішнього боку, а також відмінно захищає конструкцію від негативного впливу зовнішнього середовища: атмосферних та температурних впливів."
             },
             {
-                title: 'Work #4',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
-            {
-                title: 'Work #5',
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
-            },
+                title: '#4 Утеплення балкона',
+                text: "Утеплення балкона дозволяє зробити з технічного приміщення в будинку затишне місце для відпочинку. Завдяки цьому на ньому можна проводити час навіть взимку, головне правильно підібрати матеріал і провести якісну установку всіх матеріалів."
+            }
         ]
     },
 ]

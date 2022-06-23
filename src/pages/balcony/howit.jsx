@@ -26,7 +26,7 @@ export default function HowItBalcony(props) {
                     </div>
                     <div className="text">
                         <div className="head">Обговорення і планування</div>
-                        <div className="afterHead">Пару строк текста по делу</div>
+                        <div className="afterHead">Від 2 до 4 днів</div>
                     </div>
                 </div>
                 <div className="tab">
@@ -35,7 +35,7 @@ export default function HowItBalcony(props) {
                     </div>
                     <div className="text">
                         <div className="head">Закупівля матеріалу</div>
-                        <div className="afterHead">Пару строк текста по делу</div>
+                        <div className="afterHead">до 7 днів в залежності від наявності матерівалів на складі</div>
                     </div>
                 </div>
                 <div className="tab">
@@ -44,7 +44,7 @@ export default function HowItBalcony(props) {
                     </div>
                     <div className="text">
                         <div className="head">Виконання робіт</div>
-                        <div className="afterHead">Пару строк текста по делу</div>
+                        <div className="afterHead">До 2 днів </div>
                     </div>
                 </div>
             </div>
