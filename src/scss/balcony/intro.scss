@@ -209,12 +209,7 @@
                     margin-bottom: 10px;
                  }
             }
-    
-            &:hover{
-                .bg-svg{
-                    svg{}
-                }
-            }
+
         }
         .right{
             height: 100%;
@@ -231,7 +226,8 @@
                 top: 0;
             }
             .bgs{
-                background-attachment:scroll;
+                background-attachment:inherit;
+                background-size: cover;
             }
         }
         .socials{
