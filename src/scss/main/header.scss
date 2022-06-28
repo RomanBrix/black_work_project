@@ -13,6 +13,15 @@ header.main-header{
         list-style: none;
         li{
             margin-left: 40px;
+            transition: .25s;
+            filter: drop-shadow(2px 2px 0 transparent);
+            cursor: pointer;
+            &:last-child{
+                filter: drop-shadow(5px 4px 0 transparent);
+            }
+            *{
+                transition: .25s;
+            }
             &:first-child{
                 margin-left: 0;
                 font-weight: 400;
@@ -44,6 +53,14 @@ header.main-header{
                 color: inherit;
                 text-decoration: none;
                 transition: .25s;
+            }
+
+            &:hover{
+                filter: drop-shadow(2px 2px 0 #00A2E2);
+
+                &:last-child{
+                    filter: drop-shadow(5px 4px 0 #00A2E2);
+                }
             }
         }
     }

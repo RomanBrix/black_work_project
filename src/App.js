@@ -4,6 +4,7 @@ import Balcony from "./pages/balcony";
 import  Main  from "./pages/Main";
 import  MainAbout  from "./pages/About";
 import { BalconyLayout } from "./components/balcony/layouts/inedx";
+import WorkingOn from "./pages/WorkingOn";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
           <Route index element={<Main />}/>
 
           <Route path='about' element={<MainAbout/>}/>
+
+          <Route path='working' element={<WorkingOn/>}/>
           <Route path='*' element={<h1>Not Found</h1>}/>
         </Route>
 

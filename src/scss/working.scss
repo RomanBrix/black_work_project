@@ -1,0 +1,104 @@
+.working{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    min-height: calc(100vh - 54px - 123px);
+    .back{
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 31px;
+        cursor: pointer;
+        transition: .25s;
+        filter: drop-shadow(3px 3px 0 transparent);
+        svg{
+            margin-right: 10px;
+            transition: .25s;
+            *{
+                transition: .25s;
+                fill: #111010;
+            }
+        }
+
+        &:hover{
+            filter: drop-shadow(2px 2px 0 #00A2E2);
+        }
+    }
+    .bg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+    }
+
+    .center{
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        margin-top: -100px;
+
+        h1{
+            margin: 0;
+            // font-weight: 400;
+            font-size: 40px;
+            line-height: 51px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg{
+                margin-left: 10px;
+            }
+        }
+        h2{
+            margin: 0;
+            // font-weight: 400;
+            font-size: 32px;
+            line-height: 41px
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .working{
+        min-height: calc(100vh - 124px - 215px);
+        .back{
+            top: 200px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            svg{
+                // margin: 0;
+                // display: none;
+                *{}
+            }
+        }
+        .bg{
+            svg{
+                opacity: .6;
+            }
+        }
+    
+        .center{
+            margin-top: -50px;
+            h1{
+                flex-direction: column-reverse;
+                font-size: 30px;
+                svg{
+                    margin: 0;
+                }
+            }
+            h2{
+                font-size: 26px;
+            }
+        }
+    }
+}

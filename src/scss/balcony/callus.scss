@@ -71,9 +71,11 @@
                     margin-bottom: 20px;
                 }
                 input{
+                    font-size: 21px;
                     background: #fff;
-                    &:active, &:focus{
+                    &:active, &:focus, &:hover{
                         box-shadow: 7px 7px 0 0 #00A2E2;
+                        // filter: drop-shadow(10 10 0 #000);
                     }
                 }
                 .btn{

@@ -19,19 +19,19 @@ export default function Main(props) {
             img: MetalImg,
             headline: 'Металургія',
             list:['Сварка', 'Ковка', 'Мангали', 'Ворота'],
-            path:'/metal'
+            path:'/working'
         },
         {
             img: ThirdImg,
             headline: 'Шото',
             list:[],
-            path:'/'
+            path:'/working'
         },
         {
             img: ShopImg,
             headline: 'Cvyah.store',
             list:['Кріплення', 'Болти', 'Гайки', 'Шурупи','Інше'],
-            path:'/shop'
+            path:'/working'
         },
     ]
     
