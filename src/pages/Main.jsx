@@ -21,12 +21,12 @@ export default function Main(props) {
             list:['Сварка', 'Ковка', 'Мангали', 'Ворота'],
             path:'/working'
         },
-        {
-            img: ThirdImg,
-            headline: 'Шото',
-            list:[],
-            path:'/working'
-        },
+        // {
+        //     img: ThirdImg,
+        //     headline: 'Шото',
+        //     list:[],
+        //     path:'/working'
+        // },
         {
             img: ShopImg,
             headline: 'Cvyah.store',

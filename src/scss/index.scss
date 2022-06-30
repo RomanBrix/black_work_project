@@ -21,5 +21,14 @@ html{
 
         @import './working.scss';
         
+
+        .btn-disable{
+            background: rgba($color: #000000, $alpha: .3);
+            color: rgba($color: #fff, $alpha: .6);
+            &:hover{
+                background: rgba($color: #000000, $alpha: .3) !important;
+                color: rgba($color: #fff, $alpha: .6) !important;
+            }
+        }
     }
 }
