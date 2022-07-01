@@ -43,7 +43,7 @@ export default function CallUs(props) {
                     where: 'Балконы'
             },'withName', (result)=>{
                 if(result){
-                    alert('Дякуємо, перезвонимо за 20 хвилин');
+                    alert('Дякую, передзвонимо протягом 10 хвилин');
                     setVal(
                         {
                             name: '',
@@ -53,7 +53,7 @@ export default function CallUs(props) {
                     setBtnDisable(false);
                 }else{
                     setBtnDisable(false);
-                    alert('Error, pls contact by phone!')
+                    alert('Відбулася помилка, зв`яжіться з нами будь-ласка')
                 }
             })
         }else{

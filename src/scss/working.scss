@@ -71,14 +71,17 @@
 @media only screen and (max-width: 600px) {
     .working{
         min-height: calc(100vh - 124px - 215px);
+        padding-top: 70px;
         .back{
-            top: 200px;
+            top: 180px;
             left: 50%;
+            z-index: 100;
             transform: translate(-50%, 0);
         }
         .bg{
+            top: 55%;
             svg{
-                opacity: .6;
+                opacity: .5;
             }
         }
     

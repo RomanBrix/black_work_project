@@ -21,9 +21,9 @@ location: ${data.where}
             })
             .then(({data})=>{
                 if(data){
-                    alert('Дякуємо, перезвонимо за 20 хвилин')
+                    alert('Дякую, передзвонимо протягом 10 хвилин')
                 }else{
-                    alert('Error, pls contact by phone!')
+                    alert('Відбулася помилка, зв`яжіться з нами будь-ласка')
                 }
             })
             break;
